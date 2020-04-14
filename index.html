@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS Test</title>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link rel="stylesheet" href="./assets/stylesheets/main.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <table id="table">
+            <tr id="col-names" class="top-row">
+                <th><input id="main-checkbox" type="checkbox"></th>
+                <th class="data-col">Creditor</th>
+                <th class="data-col">First Name</th>
+                <th class="data-col">Last Name</th>
+                <th class="data-col">Min Pay %</th>
+                <th class="data-col">Balance</th>
+            </tr>
+        </table>
+
+        <div class="buttons-wrapper">
+            <button id="add-btn">Add Debt</button>
+            <button id="remove-btn">Remove Debt</button>
+        </div>
+
+        <div class="total-wrapper">
+            <div id="total">Total</div>
+            <div id="total-balance">$0.00</div>
+        </div>
+
+        <div class="row-counters">
+            <div class="row-count-1">
+                <div class="row-count-text">Total Rows:</div>
+                <div id="row-counter">0</div>
+            </div>
+            
+            <div class="row-count-2">
+                <div class="row-count-text">Total Rows Selected:</div>
+                <div id="selected-counter">0</div>
+            </div>
+        </div>
+
+        <div class="link-wrapper">   
+            <div class="link">
+                <a href="https://github.com/henrytan0705/JS-Test-SFS" target="_blank">
+                    <img src="./assets/imgs/github.png" alt="">
+                </a>
+            </div>
+        </div>
+       
+    </div>
+    
+    <script src="src/index.js"></script>
+</body>
+
+
+</html>

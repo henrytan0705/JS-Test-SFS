@@ -1,0 +1,18 @@
+/* Cells */
+.data-cell, .input-cell {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.number-cells {
+    text-align: right;
+}
+
+input[type=number]{
+    width: 100px;
+} 
+
+td {
+    max-width: 200px;
+    word-wrap: break-word;
+}

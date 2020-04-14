@@ -1,0 +1,11 @@
+/* Balance Total */
+.total-wrapper {
+    display: flex;
+    justify-content: space-between;
+    background-color: #54DEFD;
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+}

@@ -1,0 +1,14 @@
+#wrapper {
+    position: absolute;
+    left: 2em;
+    padding: 30px;
+    background-color: #8BD7D2;
+    border-radius: 5px;
+}
+
+/* Git Link */ 
+.link-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
